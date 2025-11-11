@@ -1,5 +1,5 @@
 #import "@preview/ilm:1.4.1": *
-#import "@preview/mitex:0.2.5": *
+#import "deps.typ":*
 
 #set text(
   font: ((name: "IBM Plex Serif", covers: "latin-in-cjk"),
@@ -28,6 +28,9 @@
   table-index: (enabled: true),
   listing-index: (enabled: true),
 )
+#outline(target: figure.where(kind: "frame"),title:"定理、例子和证明索引")
+#show raw: set text(font: ("BlexMono Nerd Font", "IBM Plex Mono"), size: 9pt)
+#show: frame-style(styles.boxy)
 
 #heading(numbering:none)[前言]
 
