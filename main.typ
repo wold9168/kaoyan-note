@@ -49,6 +49,7 @@
 #place(right+bottom)[wold9168 a.k.a. 阿寺#linebreak()2025年11月11日 凌晨 于学校宿舍]
 = 数学
 == 微积分
+#include "main-part/math/calculus.typ"
 == 线性代数
 == 概率论与数理统计
 = 英一
