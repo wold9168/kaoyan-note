@@ -28,6 +28,10 @@
   table-index: (enabled: true),
   listing-index: (enabled: true),
 )
+#set page(margin: (
+  x: 2em,
+  y: 2em
+))
 #outline(target: figure.where(kind: "frame"),title:"定理、例子和证明索引")
 #show raw: set text(font: ("BlexMono Nerd Font", "IBM Plex Mono"), size: 9pt)
 #show: frame-style(styles.boxy)
